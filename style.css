@@ -1,0 +1,178 @@
+body{
+    margin: 0%;
+}
+.top-bar{
+    background-color: #1a1a1a;
+    font-size: 11px;
+    padding-top: 5px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.share{
+    float: right;
+    height: 22px;
+    padding-left: 3px;
+   
+}
+
+.share1{
+    float:right;
+    margin-right: 10%;
+}
+
+#sign{
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+#visit{
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius:3px;
+    background-image: linear-gradient(to right,
+    #3224ae, #c66cd6);
+}
+
+#epaper{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+/* Dropdown language  Button */
+.dropbtn {
+    background-color: #1a1a1a;
+    color: white;
+
+    border: none;
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown-lang {
+    position: relative;
+    display: inline-block;
+    margin-left: 150px;
+  
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding-left: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-lang:hover .dropdown-content {display: block;}
+
+
+  .heading{
+      background-color: black;
+      color: white;
+      font-size: 30px;
+      margin-top: -42px;
+      text-align: center;
+      
+  }
+  #head{
+      margin-bottom: 1px;
+  }
+
+  /** menu bar **/
+  .menu{
+      background-color: #be2819;
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-bottom: 5px
+     
+  }
+  .home{
+      padding-left: 10px;
+      
+  }
+
+  /** content **/
+  #news{
+      color: blue;
+  }
+  .news{
+      font-size: 11px;
+      
+  }
+
+  .cont{
+    
+      margin-left: 15%;
+      margin-right: 15%;
+      
+  }
+  .main-cont{
+      display: flex;
+      margin-left: 15%;
+      margin-right: 15%;
+  }
+  .latest-news{
+      width: 68%;
+      float: left;
+     
+      margin-top: 10px;
+  }
+  .news-main{
+    display:flex;
+  }
+  
+  .news1{
+      display: block;
+  }
+
+  .news-image{
+    width: 100%;
+  }
+
+  .news-item{
+      margin-left: 10px;
+      margin-right: 20px;
+  }
+
+  /** side */
+  .sidebar{
+      width: 30%;
+      float: right;
+  }
+  .side{
+    margin-left: -37px;
+    
+
+  }
+ li{
+      display: inline;
+      background-color: gray;
+      font-size: 14px;
+      padding: 5px;
+      margin: -1px;
+      
+  }
+li:hover,li:active{
+    background-color: black;
+}
